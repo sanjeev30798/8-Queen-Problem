@@ -1,0 +1,13 @@
+Problem: To solve 8-Queens problem using Uniform Cost Search
+Initial State:
+There are no queens are on the board.
+States
+A state is an any arrangement of 0 to 8 queens on the board. There is a state for which no queen is under attack by any other queen.
+Actions 
+The operators add queens to any empty square or add queen to leftmost empty square such that it is not attacked by other queens.
+Path cost
+Cost is 1 per move.
+Goal state
+Arrangement of 8 queens on the board such that no queen is under attack by any other queen.
+
+Uniform Cost search is equivalent of Breadth first search if the cost of every path is same.
